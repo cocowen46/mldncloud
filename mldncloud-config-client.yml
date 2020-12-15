@@ -11,6 +11,11 @@ spring:
   application:
     name: mldncloud-config-client  # 定义微服务名称
 
+info:
+  app.name: mldncloud-dev-1
+  company.name: www.mldn.cn
+  app.version: version-dev-1.0.0
+
 ---
 server:
   port: 8102
@@ -18,4 +23,9 @@ server:
 spring:
   profiles: product
   application:
-    name: mldncloud-config-client
+    name: mldncloud-config-client # 定义微服务名称
+
+info:
+  app.name: mldncloud-product-1
+  company.name: www.mldn.cn
+  app.version: version-product-1.0.0
